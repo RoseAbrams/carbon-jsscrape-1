@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="popup.css">
+	</head>
+	<body>
+		<button class="super" id="super-unspc">super</button>
+		<table><tbody>
+			<tr>
+				<td><button class="left big" id="left-unspc">left</button></td>
+				<td><button class="right big" id="right-unspc">right</button></td>
+			</tr>
+			<tr>
+				<td><button class="left" id="left-appr">left appearance</button></td>
+				<td><button class="right" id="right-appr">right appearance</button></td>
+			</tr>
+			<tr>
+				<td><button class="left" id="left-pers">left personality</button></td>
+				<td><button class="right" id="right-pers">right personality</button></td>
+			</tr>
+			<tr>
+				<td><button class="left" id="left-both">left both</button></td>
+				<td><button class="right" id="right-both">right both</button></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><button class="right" id="right-horny">right horny</button></td>
+			</tr>
+			<tr>
+				<td><button class="debug" id="rescrape">rescrape</button></td>
+				<td><button class="right" id="right-curious">right curious</button></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" id="freemode"/><label for="freemode">Free</label></td>
+				<td><select id="automode" name="automode">
+					<option value="0">manual</option>
+					<option value="1">semi auto</option>
+					<option value="2">full auto</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" id="oppositemode"/><label for="oppositemode">Opposite</label></td>
+				<td><span id="counter">unset</span></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" id="destroymode"/><label for="destroymode">Destroy</label></td>
+				<td><button class="debug" id="init">init</button></td>
+			</tr>
+		</tbody></table>
+		<script type="text/javascript" src="popup.js"></script>
+	</body>
+</html>

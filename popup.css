@@ -1,0 +1,25 @@
+tbody {
+	text-align: center;
+}
+button:not(.debug) {
+	font-weight: bold;
+	width: 100%;
+}
+.big {
+	font-size: 150%;
+}
+.left {
+	background-color: #f00;
+}
+.right {
+	background-color: #0f0;
+}
+.super {
+	background-color: #6ff;
+}
+.hide {
+	display: none;
+}
+.textfield{
+	width: 70px;
+}
